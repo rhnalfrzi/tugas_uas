@@ -1,0 +1,201 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #425c77;
+    padding: 13px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+    margin: 14px;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    padding: 15px;
+    color: #b2b2b2;
+    text-decoration: none;
+    border-radius: 999px;
+    transition: all 0.2s ease-in-out
+}
+
+nav ul li a:hover {
+    background-color: #002746;
+    color: white;
+
+}
+
+main {
+    padding: 2rem;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.intro p {
+    margin-top: -13px;
+}
+
+.intro h3 {
+    padding-top: 40px;
+    margin-bottom: -30px;
+    font-size: 22px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgb(0, 69, 96);
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+footer {
+    background-color: #425c77;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.contact {
+    background-color: white;
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.contact h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-bottom: 0.5rem;
+}
+
+.contact input,
+.contact textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact button {
+    background-color: rgb(153, 153, 153);
+    color: rgb(78, 78, 78);
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out
+}
+
+.contact button:hover {
+    background-color: #002746;
+    color: white;
+}
+
+/* HOME */
+.content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.content .content-description {
+    flex: 1 1;
+}
+
+.content .content-description .title {
+    margin-block: 1rem;
+    font-size: 3.5rem;
+}
+
+.content .content-description p {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+}
+
+.content .content-description .text {
+    margin-bottom: 100px;
+}
+
+main .content .content-image {
+    flex: 1;
+    display: flex;
+}
+
+main .content .content-image img {
+    width: 300px;
+    min-width: 250px;
+    margin: auto;
+}
+
+#myBtn {
+    position: fixed; 
+    bottom: 6px;
+    right: 10px;
+    z-index: 99; 
+    border: 2px solid #FBCB0A;
+    outline: none; 
+    background-color: #002746;
+    color: white; 
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 10px; 
+    font-size: 18px; 
+    transition: .5s;
+}
+
+#myBtn:hover {
+    background-color: transparent;
+    color: black;
+    border: 2px solid #990000;
+}
